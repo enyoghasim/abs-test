@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200");
+.stage-one {
+  background-image: url(../assets/bookstore.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 27rem;
+}
+.navigation-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+
+  height: 50px;
+  padding: 0px 4rem;
+  font-family: "Poppins", sans-serif;
+}
+.navigation-bar.scroll {
+  background: crimson;
+}
+.navigation-bar a {
+  text-decoration: none;
+  color: white;
+}
+.logo-section {
+  color: white;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.right-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 26rem;
+}
+
+.home-container {
+  margin-top: 70px;
+}

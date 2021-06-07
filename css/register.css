@@ -13,14 +13,16 @@ h2 {
   align-items: center;
   justify-content: center;
   font-family: "Poppins", sans-serif;
+  margin-top: 2rem;
 }
 .error {
   color: #721c24;
   background-color: #f8d7da;
   border: 1px solid #f5c6cb;
   margin: 0px 20px;
-  padding: 1rem;
+  padding: 1rem 2rem;
   border-radius: 4px;
+  margin-top: 1rem;
   display: none;
 }
 label {
@@ -63,4 +65,10 @@ label {
   font-weight: 900;
   font-size: 18px;
   cursor: pointer;
+}
+
+@media screen and (max-width: 650px) {
+  .login-form-container {
+    margin: 4rem 1rem 1rem 1rem;
+  }
 }
